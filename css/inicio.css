@@ -1,0 +1,71 @@
+@charset "utf-8";
+    .colorharry {
+    background-color: #EFE1B0;
+}
+    .colorgrumosa {
+    background-color: #F7EEFF;
+    color: #8742A2;
+}
+    .textoxolor {
+    color: #F79FBA;
+}
+    .tiporosa {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+        .colorrey {
+    background-color: #CAE2FF;
+}
+    .colorrick {
+    background-color: #FFCFDE;
+}
+    .centrarlo {
+    float: none;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+    .monserrat {
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.invertidomora {
+    background-color: #FFFFFF;
+    color: #8742A2;
+}
+.invertido {
+    background-color: #FFFFFF;
+    color: #F79FBA;
+}
+    .color1 {
+    background-color: #F79FBA;
+    color: #FFFFFF;
+}
+    .container.w-50 {
+}
+    .titulitos {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+    .col-xl-6 .jumbotron .display-4 {
+}
+    .col-xl-6 .jumbotron .display-4.jesusto {
+}
+.monserroto {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+    .jesusto {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 300;
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+    .color1 {
+    background-color: #F79FBA;
+    color: #FFFFFF;
+}
+    .monserrat {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;;
+}
+    .monserroto {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;;
+}
+    .invertido {
+    background-color: #FFFFFF;
+    color: #F79FBA;
+}
+.color_letra_contorno {
+    color: #F79FBA;
+    border-left-color: #F79FBA;
+    border-left-width: 15px;
+    background-color: #FFF0F1;
+}
+    .jesusto {
+    font-family: "Noto Sans";
+}
+    

@@ -1,0 +1,24 @@
+@charset "utf-8";
+.monserroto {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;;
+}
+.jesusto {
+    font-family: "Noto Sans";
+}
+.color1 {
+    background-color: #F79FBA;
+    color: #FFFFFF;
+}
+.invertido {
+    background-color: #FFFFFF;
+    color: #F79FBA;
+}
+.monserrat {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;;
+}
