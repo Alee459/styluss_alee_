@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Styluss</title>
+
+    <!-- Bootstrap -->
+	  
+	  <link rel="icon" type="image/x-icon" href="images/Sin título-1.png">
+	  
+	  
+
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+	  
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	  
+	  
+	  
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <style type="text/css">
+    .color1 {
+    background-color: #F79FBA;
+    color: #FFFFFF;
+}
+    </style>
+    <link href="css/mios.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark m-xl-auto color1"> <a class="navbar-brand monserrat" href="index.html">&nbsp; &nbsp; &nbsp; Styluss&nbsp; &nbsp; &nbsp;&nbsp;</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"> <a class="nav-link active" href="servicios.html">Servicios</a></li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle active" href="catalogo_cinco.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Catálogo </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="catalogo_cinco.html">Todos los artículos</a> <a class="dropdown-item" href="catalogo.html">Hora de aventura</a><a class="dropdown-item" href="catalogo_dos.html">Rick y Morty</a><a class="dropdown-item" href="catalogo_tres.html">Harry Potter</a></div>
+        </li>
+        <li class="nav-item"> <a href="polvo_hda.html" class="nav-link active">Envios</a></li>
+        <li class="nav-item"> <a href="contacto.html" class="nav-link active">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="container">
+  <div class="row m-xl-5">
+    <div class="col-md-6 col-sm-12">
+      <h2 class="monserroto">Polvo</h2>
+      <hr>
+      <h5><span class="badge color1">Descripción</span></h5>
+      <p class="jesusto">Polvo fijador con espejo incluido, a prueba de agua, neutralizador de grasas y efecto translúcido mate.</p>
+      <h5><span class="badge mt-4 color1">Precio&nbsp;</span></h5>
+      <div class="container jesusto">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" min="1" value="1" oninput="calcularPrecio()">
+        <p>Precio por unidad: <strong>$5,000</strong></p>
+        <p>Total: <strong id="total">$5,000</strong></p>
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-12">
+      <h2 class="monserroto">Polvo fijador Hora de aventura</h2>
+      <div class="container"><img src="images/polvo fijador hda.png" alt="" width="600" height="400" class="img-thumbnail img-fluid"/></div>
+    </div>
+  </div>
+</div>
+
+<div class="container p-5"></div>
+
+<div class="container mt-5 color1">
+  <div class="row">
+    <div class="col-md-4 col-12">
+      <h3 class="text-center">¿Quiénes somos?</h3>
+      <p>Styluss nació en 2024 con la misión de brindar consejos para aprender a maquillarse y transformar los diseños de maquillaje convencionales, haciéndolos más personalizados y atractivos.</p>
+    </div>
+    <div class="col-md-4 col-12">
+      <h3 class="text-center">Ubicación</h3>
+      <address class="text-center">
+        <strong>Styluss</strong><br>
+        Bogotá- Colombia
+      </address>
+      <address class="text-center">
+        Ak 7 #72-54, Chapinero.<br>
+        <abbr title="Phone">(+57) 315 4562 016 - (601) 458 9693<br>
+      </abbr>
+      </address>
+    </div>
+    <div class="col-md-4 col-12">
+      <h3 class="text-center">Contacto</h3>
+      <form>
+        <div class="form-group col-12">
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          <button type="submit" class="btn mt-2 invertido">Suscribirse</button>
+        </div>
+      </form>
+      <p class="alert-link"><img class="mr-3" src="images/instagramlogo.png" alt="Generic placeholder image"><a href="#" title="Link" class="text-light">styluss_colombia </a></p>
+      <p class="alert-link"><img class="mr-3" src="images/facebooklogo.png" alt="Generic placeholder image"><a href="#" title="Link" class="text-light">Styluss&nbsp;</a></p>
+    </div>
+  </div>
+</div>
+<hr>
+<footer class="text-center color1">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>Copyright © MyCompany. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+ <script>
+    function calcularPrecio() {
+        let precioUnitario = 5000; // Precio corregido
+        let cantidad = parseInt(document.getElementById("cantidad").value) || 1; // Convertir a número y evitar NaN
+        let total = precioUnitario * cantidad; // Multiplicación correcta
+
+        document.getElementById("total").innerText = `$${total.toLocaleString()}`; // Mostrar con formato
+    }
+</script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
